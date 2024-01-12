@@ -1,0 +1,13 @@
+extends ./_inc/_page
+block append vars
+  - var title = 'webpack-templete'
+
+block contents
+  h1 webpackのテンプレート
+  button.c-btn test 
+  p.btn-count hello
+  .img-box
+      img(src="assets/images/mountain.jpg", alt="画像")
+      img(src="assets/images/sea.jpg", alt="写真")
+  .link-box 
+      a(href="page/index.html") 別ページへ

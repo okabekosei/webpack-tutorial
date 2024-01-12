@@ -1,0 +1,11 @@
+@function vw-pc($pixelsVw-pc) {
+    @return $pixelsVw-pc / 1366 * 100vw;
+}
+
+@function vw-sp($pixelsVw-sp) {
+    @return $pixelsVw-sp / 375 * 100vw;
+}
+
+@function lh($xdLineHight, $fontSize){
+    @return  $xdLineHight / $fontSize;
+}

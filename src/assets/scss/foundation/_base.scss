@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.btn-count{
+    opacity: 0;
+    &.active{
+        opacity: 1;
+    }
+}

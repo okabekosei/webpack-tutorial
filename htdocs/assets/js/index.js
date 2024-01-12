@@ -1,0 +1,1 @@
+(()=>{var e={781:()=>{const e=document.querySelector(".c-btn"),t=document.querySelector(".btn-count");e.addEventListener("click",(()=>{t.classList.toggle("active"),console.log("test")}))}},t={};function o(r){var c=t[r];if(void 0!==c)return c.exports;var n=t[r]={exports:{}};return e[r](n,n.exports,o),n.exports}(()=>{"use strict";o(781),console.log("hello")})()})();

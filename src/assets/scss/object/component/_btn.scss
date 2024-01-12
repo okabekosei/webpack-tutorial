@@ -1,0 +1,13 @@
+.c-btn{
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: green;
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: .4s;
+
+    &:hover{
+        opacity: .9;
+    }
+}
